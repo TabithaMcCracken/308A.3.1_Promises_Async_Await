@@ -22,7 +22,7 @@ async function getUserData(id) {
 
 }
 
-getUserData(1)
+getUserData(4)
   .then(userData => console.log(userData))
   .catch(error => console.log("Error", error));
 
